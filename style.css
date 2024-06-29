@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Geostar-Regular.ttf";
+    src: url("resources/Geostar-Regular.ttf");
+}
+
+.logo {
+    font-family: "Geostar-Regular.ttf";
+    font-size: 40px;
+}
+
+.adminTitle {
+    font-family: "Geostar-Regular.ttf";
+    font-size: 50px;
+}
+
+.categorybox {
+    background-color: #4B4A48;
+}
+
+.categorybox:hover {
+    background-color: #FF9400;
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
+.imgGallery img {
+    padding: 8px;
+    max-width: 200px;
+}
+
+.wallcolor {
+    background-color: #1C1C1C;
+}
+
+.cartImg {
+    width: 300px;
+    height: 300px;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url("resources/empty-cart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #FFC107;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.split_left {
+    background-color: gainsboro;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    left: 0%;
+}
+
+.admin_options {
+    text-decoration: none;
+    /* color: #1C1C1C; */
+}
+
+.advanced_color {
+    background-color: #4B4A48;
+}
